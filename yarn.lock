@@ -6990,8 +6990,10 @@ jszip@^3.6.0:
     readable-stream "~2.3.6"
     setimmediate "^1.0.5"
 
-"key-did-provider-secp256k1-with-lit@file:.yalc/key-did-provider-secp256k1-with-lit":
-  version "0.0.2"
+key-did-provider-secp256k1-with-lit@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/key-did-provider-secp256k1-with-lit/-/key-did-provider-secp256k1-with-lit-0.0.3.tgz#f9f0221b8e75f57fb157a93fdbc5bb068b1ba03d"
+  integrity sha512-hIgE35bNfYmlS6y/Nxna5BX9MRzICfQsmhafze91s+dkoPWEx0Rf6+ZdgLpoizBUDPj7qX6ZoVjg1pFm5Lk9iw==
   dependencies:
     "@types/elliptic" "^6.4.14"
     canonicalize "^1.0.8"
