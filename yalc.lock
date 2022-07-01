@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "key-did-provider-secp256k1-with-lit": {
+      "signature": "f3f6b5799617fe829371cf0626e182b4",
+      "file": true
+    }
+  }
+}
