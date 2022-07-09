@@ -6990,10 +6990,10 @@ jszip@^3.6.0:
     readable-stream "~2.3.6"
     setimmediate "^1.0.5"
 
-key-did-provider-secp256k1-with-lit@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/key-did-provider-secp256k1-with-lit/-/key-did-provider-secp256k1-with-lit-0.0.4.tgz#f05387c80d004e5b2899c0e38a4e584e8e58247c"
-  integrity sha512-1bSyZwhYwcIG+uOqX/JsvThgk4jvBX5pfR9W6I7i9z8xbjMqFs471RV5/jMsirNqnfeUY3Devu1cgcOCcPdPtA==
+key-did-provider-secp256k1-with-lit@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/key-did-provider-secp256k1-with-lit/-/key-did-provider-secp256k1-with-lit-0.0.7.tgz#d82e51555b3ec23f66b868da474d29b138bd5a3b"
+  integrity sha512-65/LVBuKkzLPyz1XZJqTrJxWzrH588HPFsz3Tm+61zmNf9x/sN6ElAuS8dTkK2SOsLSsncF/ooIb3h22T9F/SQ==
   dependencies:
     "@types/elliptic" "^6.4.14"
     canonicalize "^1.0.8"

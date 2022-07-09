@@ -14,9 +14,17 @@ function App() {
   const go = async () => {
     const ceramic = new CeramicClient("https://ceramic-clay.3boxlabs.com");
 
-    const encodedDID = await encodeDIDWithLit();
+    const encodedDID = await encodeDIDWithLit({
+      pkpPublicKey:
+        "030eceb963993d467ca197f3fd9fe3073b8b224ac2c9068d9a9caafcd5e20cf983",
+    });
 
-    const provider = new Secp256k1ProviderWithLit(encodedDID);
+    const provider = new Secp256k1ProviderWithLit({
+      did: encodedDID,
+      ipfsId: "QmYrfiMf6TDuU3NiTbZANiELNBCyn2f66Zok3gEuzRTYmL",
+      pkpPublicKey:
+        "30eceb963993d467ca197f3fd9fe3073b8b224ac2c9068d9a9caafcd5e20cf983",
+    });
 
     const did = new DID({ provider, resolver: getResolver() });
 
