@@ -6990,10 +6990,10 @@ jszip@^3.6.0:
     readable-stream "~2.3.6"
     setimmediate "^1.0.5"
 
-key-did-provider-secp256k1-with-lit@^0.0.7:
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/key-did-provider-secp256k1-with-lit/-/key-did-provider-secp256k1-with-lit-0.0.7.tgz#d82e51555b3ec23f66b868da474d29b138bd5a3b"
-  integrity sha512-65/LVBuKkzLPyz1XZJqTrJxWzrH588HPFsz3Tm+61zmNf9x/sN6ElAuS8dTkK2SOsLSsncF/ooIb3h22T9F/SQ==
+key-did-provider-secp256k1-with-lit@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/key-did-provider-secp256k1-with-lit/-/key-did-provider-secp256k1-with-lit-0.1.0.tgz#f9158d401be9139e16f534444611ceae3ac42d07"
+  integrity sha512-L3/kj0c5XnSYKkJtVf5JneY/FDm0zCAWAms292J/wKA5x0QwmgctG3tBsjIbAUjFbyHwTBQsdielTw/T5GyIOw==
   dependencies:
     "@types/elliptic" "^6.4.14"
     canonicalize "^1.0.8"
@@ -7002,7 +7002,7 @@ key-did-provider-secp256k1-with-lit@^0.0.7:
     elliptic "^6.5.4"
     fast-json-stable-stringify "^2.1.0"
     global "^4.4.0"
-    lit-js-sdk "^1.2.1"
+    lit-js-sdk "^1.2.7"
     rpc-utils "^0.6.2"
     uint8arrays "^3.0.0"
     watch "^1.0.2"
@@ -7094,10 +7094,10 @@ lit-connect-modal@^0.1.8:
   dependencies:
     micromodal "^0.4.10"
 
-lit-js-sdk@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/lit-js-sdk/-/lit-js-sdk-1.2.1.tgz#23cd905ef5f3723327854a2eaa625a3b6abab684"
-  integrity sha512-MxyzBvWSiMe1+GuPuQY3InMhsl2YAfIlMSib7aLz5+5X9PO8uC7Myi6zd7TJb6oxnJ/HyKkPju/OwBva1XfhIw==
+lit-js-sdk@^1.2.7:
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/lit-js-sdk/-/lit-js-sdk-1.2.7.tgz#84da0cbe29111132bb0d74e5b7c7dcf5e25b6787"
+  integrity sha512-WABzpwz3IE1gCOyjOfFZtSezJj92QAO31/1u5OfYpavCUnFvozibOMF1DJA/0cQH224eYpM6SBIYtBokMmYJDw==
   dependencies:
     "@ethersproject/bytes" "^5.5.0"
     "@ethersproject/contracts" "^5.2.0"

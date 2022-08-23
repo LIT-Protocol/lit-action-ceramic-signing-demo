@@ -16,14 +16,14 @@ function App() {
 
     const encodedDID = await encodeDIDWithLit({
       pkpPublicKey:
-        "030eceb963993d467ca197f3fd9fe3073b8b224ac2c9068d9a9caafcd5e20cf983",
+        "02fa5e261d59279ba5281405964386b5dd195b58dbc3287ab92822214e8535d3a3",
     });
 
     const provider = new Secp256k1ProviderWithLit({
       did: encodedDID,
-      ipfsId: "QmYrfiMf6TDuU3NiTbZANiELNBCyn2f66Zok3gEuzRTYmL",
+      ipfsId: "QmcZ2MuxkNrMbNKAVtK37tEmKJ8zwvFudin3rBEcHyhqJc",
       pkpPublicKey:
-        "30eceb963993d467ca197f3fd9fe3073b8b224ac2c9068d9a9caafcd5e20cf983",
+        "02fa5e261d59279ba5281405964386b5dd195b58dbc3287ab92822214e8535d3a3",
     });
 
     const did = new DID({ provider, resolver: getResolver() });
